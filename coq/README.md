@@ -44,25 +44,25 @@ This directory contains the summary of [official reference manual](https://coq.i
 
 ### Language Specification
 
-* [Basic Notations and Conventions](/coq/language_spec/00_basic.md)
-* [Sorts](/coq/language_spec/01_sort.md)
-* [Functions and Assumptions](/coq/language_spec/02_functions.md)
-* [Definitions](/coq/language_spec/03_definition.md)
-* [Conversion Rules](/coq/language_spec/04_conversion.md)
-* [Typing](/coq/language_spec/05_typing.md)
-* [Pattern Matching](/coq/language_spec/06_match.md)
-* [Inductive Types](/coq/language_spec/07_induction.md)
+* [Basic Notations and Conventions](language_spec/00_basic.md)
+* [Sorts](language_spec/01_sort.md)
+* [Functions and Assumptions](language_spec/02_functions.md)
+* [Definitions](language_spec/03_definition.md)
+* [Conversion Rules](language_spec/04_conversion.md)
+* [Typing](language_spec/05_typing.md)
+* [Pattern Matching](language_spec/06_match.md)
+* [Inductive Types](language_spec/07_induction.md)
 
 ### Language Extension
 
-* [Existential Variables](/coq/language_extension/00_existential.md)
-* [Implicit Arguments](/coq/language_extension/01_implicit.md)
+* [Existential Variables](language_extension/00_existential.md)
+* [Implicit Arguments](language_extension/01_implicit.md)
 
 ### Proof
 
-* [Proof Mode](/coq/proof/00_proof_mode.md)
-* [Tactics](/coq/proof/01_tactics.md)
-* [Tacticals](/coq/proof/02_tacticals.md)
+* [Proof Mode](proof/00_proof_mode.md)
+* [Tactics](proof/01_tactics.md)
+* [Tacticals](proof/02_tacticals.md)
 
 ## [Software Foundations](https://github.com/Kangji/software-foundations)
 
