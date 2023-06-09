@@ -63,3 +63,12 @@ This directory contains the summary of [official reference manual](https://coq.i
 * [Proof Mode](/coq/proof/00_proof_mode.md)
 * [Tactics](/coq/proof/01_tactics.md)
 * [Tacticals](/coq/proof/02_tacticals.md)
+
+## [Software Foundations](https://github.com/Kangji/software-foundations)
+
+The Software Foundations series is a broad introduction to the mathematical underpinnings of reliable software.
+
+The principal novelty of the series is that every detail is one hundred percent formalized and machine-checked:
+the entire text of each volume, including the exercises, is literally a "proof script" for the Coq proof assistant.
+
+The linked repository contains the code covered by @Kangji in SNU Software Foundations 2023 Spring.
