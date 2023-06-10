@@ -64,11 +64,14 @@ This directory contains the summary of [official reference manual](https://coq.i
 * [Tactics](proof/01_tactics.md)
 * [Tacticals](proof/02_tacticals.md)
 
-## [Software Foundations](https://github.com/Kangji/software-foundations)
+## Software Foundations
 
 The Software Foundations series is a broad introduction to the mathematical underpinnings of reliable software.
 
 The principal novelty of the series is that every detail is one hundred percent formalized and machine-checked:
 the entire text of each volume, including the exercises, is literally a "proof script" for the Coq proof assistant.
 
-The linked repository contains the code covered by @Kangji in SNU Software Foundations 2023 Spring.
+The [linked repository](https://github.com/Kangji/software-foundations) contains the code covered by @Kangji in SNU Software Foundations 2023 Spring.
+
+* [Inductively Defined Propositions](software_foundations/01_indprop.md)
+* [Hoare Logic](software_foundations/02_hoare.md)
