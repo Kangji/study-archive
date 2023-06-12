@@ -165,7 +165,7 @@ Improvements:
 ### Hash Join
 
 1. Join attribute를 hash해서 r과 s를 각각 n개의 partition으로 나눈다.
-    * partition할 때 partition 1개 당 output buffer block 최소 1개 필요 ($b_b$)
+    * partition 1개당(and input) buffer block 최소 1개 필요 ($b_b$)
 2. partition 번호가 같은 것끼리 nested loop join
     1. 다른 hash function으로 in memory hash index를 구축
     2. $r_i$의 각 record마다 hash index로 match되는 $s_i$의 record 찾는다.
@@ -174,6 +174,18 @@ Improvements:
 
 * 해당 번호의 partition을 다른 hash function으로 또다시 partition하는 방법
 * 이마저도 duplicate 많으면 소용 없음 => nested loop join으로 fallback
+
+Transfer:
+
+* 각 file을 partition => $b_r$ read, $b_r+n$ write (partition당 자투리 1개)
+* 각 partition load해서 match / index 구성 => $b_r + n$ read
+* $3b_r + 2n + 3b_s + 2n$
+
+Seek:
+
+* 각 file을 partition => $\lceil\frac{b_r}{b_b}\rceil$ read, 대략 같은만큼 write
+* 각 partition load해서 match / index 구성 => $n$ read
+* $2\lceil\frac{b_r}{b_b}\rceil + n + 2\lceil\frac{b_s}{b_b}\rceil + n$
 
 ## Discussion
 
