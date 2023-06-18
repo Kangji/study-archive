@@ -59,3 +59,8 @@ Inductive le : nat -> nat -> Prop :=
 * `le_S n m LE`는 `le n (S m)`의 원소이다.
 즉 `LE : le n m`이 주어지면 <=> n이 m보다 작거나 같으면
 `le n (S m)`의 원소가 존재 <=> n은 (S m)보다 작거나 같음을 뜻한다.
+
+## Induction Technique on Inductive Type
+
+귀납적으로 정의된 type의 induction principle이 원하는 모양이 아닐 때 쓸 수 있는 technique중 하나.
+원래 명제를 강화시키는 방향으로 새로운 inductive type을 추가한 후 그놈을 이용해서 induction.

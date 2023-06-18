@@ -73,5 +73,10 @@ the entire text of each volume, including the exercises, is literally a "proof s
 
 The [linked repository](https://github.com/Kangji/SF2023S) contains the code covered by @Kangji in SNU Software Foundations 2023 Spring.
 
-* [Inductively Defined Propositions](software_foundations/01_indprop.md)
-* [Hoare Logic](software_foundations/02_hoare.md)
+* [Constructive Logic](software_foundations/01_logic.md)
+* [Inductively Defined Propositions](software_foundations/02_indprop.md)
+* [Simple Imperative Programs](software_foundations/03_imp.md)
+* [Hoare Logic](software_foundations/04_hoare.md)
+* [Smallstep Operational Semantics](software_foundations/05_smallstep.md)
+* [Type System](software_foundations/06_types.md)
+* [Simply Typed Lambda Calculus](software_foundations/07_stlc.md)
