@@ -4,8 +4,11 @@
 
 ## Link
 
-* [Coq](/coq/README.md)
-* [Database](/database/README.md)
+* [Computer Systems](computer_systems/README.md)
+* [Coq](coq/README.md)
+* [Database](database/README.md)
+* [Python](python/README.md)
+* [Verilog](verilog/README.md)
 
 ## Release Note
 
@@ -26,3 +29,13 @@
 ### 2023.06.18
 
 * Update software-foudations
+
+### 2023.06.20
+
+* Add computer systems directory
+* Add verilog directory
+* Add python directory
+* Add amaranth directory
+* Write summary over hardware systems design
+* Write summary over verilog grammar
+* Write summary over amaranth
