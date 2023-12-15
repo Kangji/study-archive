@@ -8,6 +8,7 @@
 * [Coq](coq/README.md)
 * [Database](database/README.md)
 * [Python](python/README.md)
+* [Software Development](software_development/README.md)
 * [Verilog](verilog/README.md)
 
 ## Release Note
@@ -39,3 +40,8 @@
 * Write summary over hardware systems design
 * Write summary over verilog grammar
 * Write summary over amaranth
+
+### 2023.12.14
+
+* Add software development directory
+* Write summary over software development
