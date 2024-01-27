@@ -7,6 +7,7 @@
 * [Computer Systems](computer_systems/README.md)
 * [Coq](coq/README.md)
 * [Database](database/README.md)
+* [Rust](rust/README.md)
 * [Python](python/README.md)
 * [Software Development](software_development/README.md)
 * [Verilog](verilog/README.md)
@@ -45,3 +46,8 @@
 
 * Add software development directory
 * Write summary over software development
+
+### 2024.01.18
+
+* Add rust directory
+* Write summary over rust programming language
