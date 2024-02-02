@@ -7,8 +7,9 @@
 * [Computer Systems](computer_systems/README.md)
 * [Coq](coq/README.md)
 * [Database](database/README.md)
-* [Rust](rust/README.md)
+* [Programming Language Theory](plt/README.md)
 * [Python](python/README.md)
+* [Rust](rust/README.md)
 * [Software Development](software_development/README.md)
 * [Verilog](verilog/README.md)
 
@@ -51,3 +52,9 @@
 
 * Add rust directory
 * Write summary over rust programming language
+
+### 2024.02.02
+
+* Add Bluespec directory and docs
+* Add Systems History directory and docs
+* Add PLT directory and docs
