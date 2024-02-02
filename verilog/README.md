@@ -4,7 +4,16 @@
 
 ## Table of Contents
 
+* [Hardware Description Language](00_hdl.md)
 * [Basic Components](01_basic.md)
 * [Blocks](02_block.md)
 * [Module](03_module.md)
 * [Synthesizable Code](04_synthesize.md)
+
+## Bluespec
+
+Bluespec은 high-level HDL로, Verilog보다 더 높은 수준의 abstraction을 제공한다.
+문법이 C/C++과 유사한 부분이 많고고, 굉장히 직관적인 형태를 가지고 있어 배우기가 쉬운 편이다. 주로 RISC-V 시뮬레이션에 사용된다.
+
+* [Overview](bluespec/01_overview.md)
+* [Language Definition](bluespec/02_definition.md)
