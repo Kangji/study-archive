@@ -18,7 +18,7 @@
 
 이처럼 instruction execution을 여러 stage로 나눠서 각 stage를 overlapping 시켜서 분업하는 기술을 pipelining이라고 한다.
 
-![Pipelined Execution](/assets/images/systems/pipeline/pipeline.png)
+![Pipelined Execution](assets/pipeline.png)
 
 ## Comparison (vs. No Pipelining)
 

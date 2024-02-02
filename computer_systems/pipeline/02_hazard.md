@@ -40,7 +40,7 @@ Reading value from register before previous instruction writes the result
 
 Value가 write되기를 기다리지 말고 각 hardware unit에서 연산 결과를 바로 forwarding해서 사용
 
-![Data Forwarding](/assets/images/systems/pipeline/forwarding.png)
+![Data Forwarding](assets/forwarding.png)
 
 ### Load-Use Data Hazard
 
@@ -48,7 +48,7 @@ Value가 write되기를 기다리지 말고 각 hardware unit에서 연산 결�
 그 다음 stage인 memory stage에서 value를 가져오기 때문에,
 forwarding을 한다고 해도 stall을 피할 수 없다.
 
-![Load-Use Data Hazard](/assets/images/systems/pipeline/load.png)
+![Load-Use Data Hazard](assets/load.png)
 
 ## Compiler Scheduling Optimization
 
@@ -75,7 +75,7 @@ Buffer the prediction result. Update the prediction on actual result.
 * 1-bit => Double miss on nested loop
 * 2-bit prediction => (Strong/Weak) (Taken/Not-Taken)
 
-![Branch Predition](/assets/images/systems/pipeline/prediction.png)
+![Branch Predition](assets/prediction.png)
 
 ### Branch Target Buffer
 
