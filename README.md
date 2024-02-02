@@ -58,3 +58,4 @@
 * Add Bluespec directory and docs
 * Add Systems History directory and docs
 * Add PLT directory and docs
+* Add Systems Pipeline directory and docs
