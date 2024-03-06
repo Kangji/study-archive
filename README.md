@@ -65,3 +65,4 @@
 ### 2024.03.06
 
 * Change indexing into 1-base
+* Add Systems Memory Device directory and docs
