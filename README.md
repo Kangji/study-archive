@@ -66,3 +66,4 @@
 
 * Change indexing into 1-base
 * Add Systems Memory Device directory and docs
+* Add Systems Cache directory and docs
