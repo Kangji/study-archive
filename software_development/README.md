@@ -29,33 +29,33 @@ Software Development에 관한 내용과 SNU SWPP 수업 내용을 정리한 arc
 
 ## Refactoring
 
-* [SOLID Design Principles](refactoring/00_solid.md)
-* [GoF Design Patterns](refactoring/01_gof.md.md)
+* [SOLID Design Principles](refactoring/01_solid.md)
+* [GoF Design Patterns](refactoring/02_gof.md.md)
 
 ## Software Process
 
-* [Software Development Life Cycle](software_process/00_sdlc.md)
-* [Project Management](software_process/01_project_management.md)
-* [Requirements Specification](software_process/02_requirements.md)
+* [Software Development Life Cycle](software_process/01_sdlc.md)
+* [Project Management](software_process/02_project_management.md)
+* [Requirements Specification](software_process/03_requirements.md)
 
 ## Software Quality
 
-* [Software and Code Quality](software_quality/00_quality.md)
-* [Clean Code](software_quality/01_clean_code.md)
-* [Code Review](software_quality/02_review.md)
-* [Usability](software_quality/03_usability.md)
-* [Code Smell](software_quality/04_code_smell.md)
-* [Refactoring](software_quality/05_refactoring.md)
+* [Software and Code Quality](software_quality/01_quality.md)
+* [Clean Code](software_quality/02_clean_code.md)
+* [Code Review](software_quality/03_review.md)
+* [Usability](software_quality/04_usability.md)
+* [Code Smell](software_quality/05_code_smell.md)
+* [Refactoring](software_quality/06_refactoring.md)
 
 ## Testing
 
-* [Testing](testing/00_intro.md)
-* [Unit Test](testing/01_unit.md)
-* [Integration Test](testing/02_it.md)
-* [Test Metrics](testing/03_metric.md)
-* [Acceptance Test](testing/04_acceptance.md)
+* [Testing](testing/01_intro.md)
+* [Unit Test](testing/02_unit.md)
+* [Integration Test](testing/03_it.md)
+* [Test Metrics](testing/04_metric.md)
+* [Acceptance Test](testing/05_acceptance.md)
 
 ## Version Control
 
-* [Git](version_control/00_git.md)
-* [Branching Strategy](version_control/01_strategy.md)
+* [Git](version_control/01_git.md)
+* [Branching Strategy](version_control/02_strategy.md)

@@ -21,24 +21,24 @@ Rust는 진입 장벽이 높지만 좋은 guide book들이 많습니다.
 
 Rust 기본 문법은 다루지 않습니다.
 
-* [Introduction](basics/00_introduction.md)
-* [Mutability](basics/01_mutability.md)
-* [Ownership](basics/02_ownership.md)
-* [Reference](basics/03_reference.md)
-* [Lifetime](basics/04_lifetime.md)
-* [Object-Oriented Programming](basics/05_oop.md)
-* [Functional Programming](basics/06_fp.md)
+* [Introduction](basics/01_introduction.md)
+* [Mutability](basics/02_mutability.md)
+* [Ownership](basics/03_ownership.md)
+* [Reference](basics/04_reference.md)
+* [Lifetime](basics/05_lifetime.md)
+* [Object-Oriented Programming](basics/06_oop.md)
+* [Functional Programming](basics/07_fp.md)
 
 ## Async
 
-* [Introduction](async/00_introduction.md)
-* [Future](async/01_future.md)
-* [Pin](async/02_pin.md)
-* [Stream, Sink, and I/O](async/03_more_futures.md)
+* [Introduction](async/01_introduction.md)
+* [Future](async/02_future.md)
+* [Pin](async/03_pin.md)
+* [Stream, Sink, and I/O](async/04_more_futures.md)
 
 ## Web
 
-* [HTTP](web/00_http.md)
-* [Tower](web/01_tower.md)
-* [Hyper](web/02_hyper.md)
-* [Axum](web/03_axum.md)
+* [HTTP](web/01_http.md)
+* [Tower](web/02_tower.md)
+* [Hyper](web/03_hyper.md)
+* [Axum](web/04_axum.md)

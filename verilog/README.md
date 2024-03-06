@@ -4,11 +4,11 @@
 
 ## Table of Contents
 
-* [Hardware Description Language](00_hdl.md)
-* [Basic Components](01_basic.md)
-* [Blocks](02_block.md)
-* [Module](03_module.md)
-* [Synthesizable Code](04_synthesize.md)
+* [Hardware Description Language](01_hdl.md)
+* [Basic Components](02_basic.md)
+* [Blocks](03_block.md)
+* [Module](04_module.md)
+* [Synthesizable Code](05_synthesize.md)
 
 ## Bluespec
 
