@@ -67,3 +67,8 @@
 * Change indexing into 1-base
 * Add Systems Memory Device directory and docs
 * Add Systems Cache directory and docs
+
+### 2024.03.12
+
+* Add Python Runtime directory and docs
+* Add Python Reference directory and docs
