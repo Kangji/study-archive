@@ -31,10 +31,10 @@ Rust 기본 문법은 다루지 않습니다.
 
 ## Async
 
-* [Introduction](async/01_introduction.md)
+* [Rust's Async Paradigm](async/01_introduction.md)
 * [Future](async/02_future.md)
-* [Pin](async/03_pin.md)
-* [Stream, Sink, and I/O](async/04_more_futures.md)
+* [Asynchronous Runtime](async/03_runtime.md)
+* [Pin](async/04_pin.md)
 
 ## Web
 

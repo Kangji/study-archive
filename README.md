@@ -72,3 +72,7 @@
 
 * Add Python Runtime directory and docs
 * Add Python Reference directory and docs
+
+### 2024.03.16
+
+* Update Rust docs

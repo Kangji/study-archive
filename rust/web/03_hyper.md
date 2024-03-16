@@ -5,7 +5,7 @@ Hyper is a lower-level HTTP library, meant to be a building block for libraries 
 
 ## Body
 
-On top of `Body` trait from `http 1.0.0`, hyper also provides the concrete `Incoming` type which implmenets `Body`.
+On top of `Body` trait from `http-body 1.0.0`, hyper also provides the concrete `Incoming` type which implmenets `Body`.
 It is a stream of Bytes, used when receiving bodies from the network.
 
 Note that Users should not instantiate this struct directly.

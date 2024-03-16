@@ -40,8 +40,24 @@ If the service is at capacity, then `Poll::Pending` is returned and the task is 
 If `Poll::Ready(Err(_))` is returned, the service is no longer able to service requests and the caller should discard the service instance.
 
 `poll_raedy` is expected to be called while on a task.
-Generally, this can be done with a simple futures::future::poll_fn call.
+Generally, this can be done with a simple `futures::future::poll_fn` call.
 However, `call` is callable off the task.
+
+### `service_fn`
+
+Returns a new `ServiceFn` with the given closure.
+
+This lets you build a `Service` from an async function that returns a `Result`.
+
+A `ServiceFn` is a `Service` implementation.
+
+```rust
+pub fn service_fn<T>(f: T) -> ServiceFn<T> { ... }
+pub struct ServiceFn<T> { ... }
+
+async fn serve<Req, Resp, Err>(req: Req) -> Result<Resp, Err> { ... }
+let my_service = service_fn(serve);
+```
 
 ## MakeService
 
@@ -91,6 +107,6 @@ The `Layer` trait can be used to write reusable components that can be applied t
 
 This crate provides various middleware such as `filter`, `reconnect`.
 
-### `tower-http 0.5.1`
+## `tower-http 0.5.1`
 
 tower-http is a library that provides HTTP-specific middleware and utilities built on top of tower.
