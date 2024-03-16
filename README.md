@@ -76,3 +76,7 @@
 ### 2024.03.16
 
 * Update Rust docs
+
+### 2024.03.17
+
+* Add Unsafe Rust

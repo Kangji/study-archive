@@ -28,6 +28,7 @@ Rust 기본 문법은 다루지 않습니다.
 * [Lifetime](basics/05_lifetime.md)
 * [Object-Oriented Programming](basics/06_oop.md)
 * [Functional Programming](basics/07_fp.md)
+* [Unsafe Rust](basics/08_unsafe.md)
 
 ## Async
 
