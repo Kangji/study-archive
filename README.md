@@ -80,3 +80,8 @@
 ### 2024.03.17
 
 * Add Unsafe Rust
+
+### 2024.03.24
+
+* Add Python FastAPI
+* Update Python Context Manager docs

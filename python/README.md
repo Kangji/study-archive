@@ -37,3 +37,17 @@ Python language spec을 다룹니다.
 * [Class Creation](reference/15_class.md)
 * [Closure](reference/16_closure.md)
 * [Decorator](reference/17_decorator.md)
+
+## FastAPI
+
+Python FastAPI [tutorial](https://fastapi.tiangolo.com/learn/)을 다룹니다.
+
+* [Basics](fastapi/01_basics.md)
+* [Path Operation](fastapi/02_path_operation.md)
+* [Dependency](fastapi/03_dependency.md)
+* [Error Handling](fastapi/04_error_handling.md)
+* [Web Security](fastapi/05_security.md)
+* [WebSocket](fastapi/06_websocket.md)
+* [Webhook](fastapi/07_webhook.md)
+* [Testing](fastapi/08_testing.md)
+* [Other Stuff](fastapi/09_others.md)

@@ -63,3 +63,12 @@ class AsyncContextManager:
 async with AsyncContextManager():
     await do_something()
 ```
+
+## (Async) Generator as (Async) Context Manager
+
+By decorating with `@contextmanager` or `@asynccontextmanager` from `contextlib`,
+your (async) generator will return (async) context manager rather than (async) generator iterator.
+
+Note that your generator must yield exactly once, otherwise it will raise `RumtimeError`.
+
+단, 에외가 발생하면 그대로 context를 벗어나게 되니 반드시 `try~finally`로 묶어주자.
