@@ -85,3 +85,7 @@
 
 * Add Python FastAPI
 * Update Python Context Manager docs
+
+### 2024.03.26
+
+* Add Python SQLAlchemy
