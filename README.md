@@ -93,3 +93,7 @@
 ### 2024.03.27
 
 * Add Network Web
+
+### 2024.03.28
+
+* Update Python FastAPI

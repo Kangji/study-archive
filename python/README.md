@@ -48,9 +48,8 @@ Python FastAPI [tutorial](https://fastapi.tiangolo.com/learn/)을 다룹니다.
 * [Error Handling](fastapi/04_error_handling.md)
 * [Web Security](fastapi/05_security.md)
 * [WebSocket](fastapi/06_websocket.md)
-* [Webhook](fastapi/07_webhook.md)
-* [Testing](fastapi/08_testing.md)
-* [Other Stuff](fastapi/09_others.md)
+* [Testing](fastapi/07_testing.md)
+* [Other Stuff](fastapi/08_others.md)
 
 ## SQLAlchemy
 
