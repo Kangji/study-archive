@@ -101,3 +101,11 @@
 ### 2024.03.30
 
 * Add Systems Virtual Memory
+
+### 2024.04.01
+
+* Add Python Ruff
+
+### 2024.04.02
+
+* Add Python Poetry

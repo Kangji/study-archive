@@ -40,7 +40,7 @@ Python language spec을 다룹니다.
 
 ## FastAPI
 
-Python FastAPI [tutorial](https://fastapi.tiangolo.com/learn/)을 다룹니다.
+Python Web Framework인 FastAPI [tutorial](https://fastapi.tiangolo.com/learn/)을 다룹니다.
 
 * [Basics](fastapi/01_basics.md)
 * [Path Operation](fastapi/02_path_operation.md)
@@ -53,7 +53,7 @@ Python FastAPI [tutorial](https://fastapi.tiangolo.com/learn/)을 다룹니다.
 
 ## SQLAlchemy
 
-Python SQLAlchemy [documentation](https://docs.sqlalchemy.org/en/20/)을 다룹니다.
+Python SQL toolkit인 SQLAlchemy [documentation](https://docs.sqlalchemy.org/en/20/)을 다룹니다.
 
 * [Basics](sqlalchemy/01_basics.md)
 * [Session](sqlalchemy/02_session.md)
@@ -61,3 +61,20 @@ Python SQLAlchemy [documentation](https://docs.sqlalchemy.org/en/20/)을 다룹�
 * [ORM Mapped Class](sqlalchemy/04_declarative.md)
 * [SQL Expression](sqlalchemy/05_sql.md)
 * [Migration with Alembic](sqlalchemy/06_alembic.md)
+
+## [Ruff](ruff.md)
+
+An extremely fast Python linter and code formatter, written in Rust.
+As can be inferred from being made in Rust, its usage is very similar to cargo.
+
+To see official documentation, please refer to [Ruff documentation](https://astral.sh/ruff).
+
+## [Poetry](poetry.md)
+
+Poetry is a tool for dependency management and packaging in Python.
+It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
+Poetry offers a lockfile to ensure repeatable installs, and can build your project for distribution.
+
+Poetry aims to provide the interface as similar as Rust Cargo.
+
+To see official documentation, please refer to [Poetry documentation](https://python-poetry.org/docs/).
