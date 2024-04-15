@@ -5,7 +5,7 @@
 즉, class A의 인스턴스의 type은 A이고, A의 type은 A가 아니다 (나중에 다룰 예정).
 
 한편, class(type) 또한 "모든 것"에 포함되므로 객체이며 어떤 class의 인스턴스이다.
-Class(또는 type)에 해당하는 객체를 **class(type) object**라고 한다.
+Class(type)에 해당하는 객체를 **class(type) object**라고 한다.
 
 Class object의 type을 알아보기 위해 `type` class를 살펴봐야 한다.
 
@@ -13,6 +13,7 @@ Class object의 type을 알아보기 위해 `type` class를 살펴봐야 한다.
 
 표현이 혼동하기 쉬워 정리하고 넘어간다.
 
+* a: Identifier a가 참조하는 object를 지칭
 * A object: A가 클래스 이름일 경우 A의 instance를 지칭, o/w, A가 참조하는 object를 지칭
 * A type(class): A는 클래스 이름이고, class object를 지칭
 
@@ -57,8 +58,7 @@ True
 False
 ```
 
-`isinstance(arg1, arg2)` 함수는 `arg1` object가 `arg2` (type) object 뿐만 아니라 `arg2`의 조상인 경우도 고려한다.
-즉 `arg1`의 type이 `arg2` 혹은 그 조상인지를 return하는 함수이다.
+`isinstance(arg1, arg2)` 함수는 `arg1`의 type이 `arg2` 뿐만 아니라 `arg2`의 base인 경우도 고려한다.
 
 - `isinstance(object, object)`는 `object`의 type인 `type` class가 `object`를 base로 갖기 때문에 참이다.
 - `isinstance(object, type)`은 `object`의 type이 `type` class이기 때문에 참이다.

@@ -27,10 +27,9 @@ Identity는 모든 객체가 가지는 고유한 불변의 정수이다.
 참고로, 객체의 type 또한 객체로 구현되며, 이를 type object라고 한다.
 
 Python 구현체에 내장된 객체의 경우 대부분 Python level에서는 type이 존재하지 않을 수 있다.
-Python level에서 존재하지 않는다는 것은 Python level에서 mapping된 이름이 없다는 것이지,
-type은 항상 존재한다. Python의 type system은 sound하고 complete하다.
+Python level에서 존재하지 않는다는 것은 Python level에서 mapping된 이름이 없다는 것이지, type은 항상 존재한다.
 이런 객체들은 `None` 객체 등 특수한 객체여서 Python level에서 type이 필요 없거나,
-함수 등 객체를 생성하는 방식이 따로 있다.
+함수 등 객체를 생성하는 방식이 따로 있는 객체들이다.
 
 또한, 파이썬의 클래스는 구현체에서 정확히 type이다. 따라서 class는 python level, type은 구현체 level에서의 명칭일 뿐 본질적으로 동일하다. 따라서 많은 경우 두 용어를 함께 사용한다.
 파이썬에서 모든 type은 class이기 때문에 모든 객체는 instance임을 알 수 있다.

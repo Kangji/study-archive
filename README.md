@@ -109,3 +109,7 @@
 ### 2024.04.02
 
 * Add Python Poetry
+
+### 2024.04.16
+
+* Update Python Reference

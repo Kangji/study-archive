@@ -22,7 +22,7 @@ CPython은 `instance`의 type인 `class`의 slot 중 `tp_getattro`, `tp_getattr`
 
 1. MRO(Method Resolution Order)대로 `class` 및 `class`의 base들의 attribute dictionary에서 `attr`(class variable)을 찾는다.
 만약 찾은 variable이 **data** descriptor이면 이 variable의 `tp_descr_get` slot을 호출한 결과를 return한다.
-만약 data descriptor가 아니면 step 2가 우선순위이므로 기억만 해두고 3으로 넘어간다.
+만약 data descriptor가 아니면 step 2가 우선순위이므로 기억만 해두고 2로 넘어간다.
 2. `instance`의 attribute dictionary에서 `attr`(instance variable)을 찾았다면 return한다.
 3. 1에서 찾은 결과를 return한다.
 만약 descriptor라면 `tp_descr_get` slot을 호출한 결과를 return한다.
@@ -33,7 +33,7 @@ CPython은 `instance`의 type인 `class`의 slot 중 `tp_getattro`, `tp_getattr`
 이 함수는 `PyObject_GenericGetAttr`과 큰 흐름은 같지만, step 2가 다르다.
 
 2. MRO대로 `instance` 및 `instance`의 base들의 attribute dictionary에서 `attr`(class variable)을 찾아서 return한다.
-단, 찾은 variable이 찾은 variable이 descriptor라면 `tp_descr_get` slot을 호출한 결과를 return한다.
+단, 찾은 variable이 descriptor라면 `tp_descr_get` slot을 호출한 결과를 return한다.
 
 이 차이는 찾은 attribute가 descriptor일 때,
 instance variable이면 `tp_descr_get`을 호출하지 않는다는 점과,
@@ -44,7 +44,7 @@ base가 존재하면 MRO대로 base도 살펴본다는 규칙으로 요약할 �
 만약 `__getattribute__` 또는 `__getattr__`을 구현하는 Python 클래스라면 CPython은 해당 class object의 `tp_getattro` slot을 `slot_tp_getattr_hook()`를 참조시킨다.
 이 함수는 `__getattribute__` python function과 `__getattr__` python function을 차례로 실행시킨다.
 만약 `__getattribute__`만 구현한다면 `slot_tp_getattro`를 참조시키는데,
-이 함수는 `slot_tp_getattr_hook`과 비교하여 `__getattr__`을 실행하는 부분이 빠져있다.
+이 함수는 `slot_tp_getattr_hook`과 비교해보면 `__getattr__`을 실행하는 부분이 빠져있다.
 
 ## Setting an Attribute
 
