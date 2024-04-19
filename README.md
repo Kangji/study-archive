@@ -113,3 +113,7 @@
 ### 2024.04.16
 
 * Update Python Reference
+
+### 2024.04.19
+
+* Update Python SQLAlchemy
