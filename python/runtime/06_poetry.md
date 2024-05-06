@@ -6,7 +6,12 @@ Poetry offers a lockfile to ensure repeatable installs, and can build your proje
 
 Poetry aims to provide the interface as similar as Rust Cargo.
 
+To see official documentation, please refer to [Poetry documentation](https://python-poetry.org/docs/).
+
 ## Installation
+
+Poetry는 프로젝트의 dependency와 runtime을 관리하기 위한 tool이므로 특정 project에 의존하는 application이 아닌 점에 주의하자.
+따라서 local environment에 설치하거나 pipx로 설치하자.
 
 ```sh
 pipx install poetry
@@ -19,17 +24,16 @@ Like `git config`, poetry configuration is managed by `poetry config`.
 ```sh
 poetry config --list
 poetry config warnings.export false
+poetry config virtualenvs.in-project true  # Recommended
 ```
 
 ## Project Setup
 
 ```sh
 poetry new /path/to/project
-# or
-poetry init
 ```
 
-This will create or initialize the project directory like:
+This will create the project directory like:
 
 ```txt
 your-project
@@ -61,6 +65,15 @@ python = "^3.7"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+```
+
+However, there are several ways to set the project directory structure,
+which is up to developers.
+Poetry can initialize the project in current directory,
+which only creates `pyproject.toml`.
+
+```sh
+poetry init  # Creates pyproject.toml interactively
 ```
 
 ## Project Dependencies
@@ -112,7 +125,7 @@ But if it’s not, it will use one that it has already created or create a brand
 
 By default, Poetry creates a virtual environment as `{cache-dir}/virtualenvs/{project_name}-{tag}-py{python_version}`.
 You can change the `cache-dir` value by editing the Poetry configuration.
-Additionally, you can use the `virtualenvs.in-project` configuration variable to create virtual environments within your project directory.
+Additionally, you can use the `virtualenvs.in-project` configuration variable to create virtual environments within your project directory, which is recommended.
 
 You can create or remove the environment with `env` family commands.
 `env use` will create new environment with specified python version.

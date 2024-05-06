@@ -15,6 +15,9 @@ Python Runtime 환경에 관한 정리입니다. Python 코드를 작성하는 �
 * [Virtual Environment](runtime/01_venv.md)
 * [CPython](runtime/02_cpython.md)
 * [Global Interpreter Lock](runtime/03_gil.md)
+* [Pyenv](runtime/04_pyenv.md)
+* [Pipx](runtime/05_pipx.md)
+* [Poetry](runtime/06_poetry.md)
 
 ## Python Language Reference
 
@@ -68,13 +71,3 @@ An extremely fast Python linter and code formatter, written in Rust.
 As can be inferred from being made in Rust, its usage is very similar to cargo.
 
 To see official documentation, please refer to [Ruff documentation](https://astral.sh/ruff).
-
-## [Poetry](poetry.md)
-
-Poetry is a tool for dependency management and packaging in Python.
-It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
-Poetry offers a lockfile to ensure repeatable installs, and can build your project for distribution.
-
-Poetry aims to provide the interface as similar as Rust Cargo.
-
-To see official documentation, please refer to [Poetry documentation](https://python-poetry.org/docs/).

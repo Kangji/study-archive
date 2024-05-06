@@ -117,3 +117,10 @@
 ### 2024.04.19
 
 * Update Python SQLAlchemy
+
+### 2024.05.07
+
+* Add Pre-Commit
+* Add Pyenv
+* Add Pipx
+* Move Poetry to Python Runtime
