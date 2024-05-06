@@ -129,3 +129,34 @@
 ### 2024.05.13
 
 * Add Python Test
+
+### WIP: Django
+
+```yaml
+  python:
+    django:
+      - Rendering
+        - Form
+        - [DRF] Serializer
+      - View:
+        - FBV
+        - CBV
+        - [DRF] GenericView
+        - [DRF] APIView
+        - [DRF] Mixin
+      - [DRF] ViewSet:
+        - [DRF] GenericViewSet
+        - [DRF] Mixin
+        - [DRF] SearchFilter
+        - [DRF] Router
+      - Gunicorn
+      - Auth
+      - Simple JWT
+      - Admin
+      - Middlewares
+      - CORS
+      - Cache
+      - CacheOPS
+      - Logging
+      - Debugging
+```

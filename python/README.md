@@ -77,3 +77,18 @@ An extremely fast Python linter and code formatter, written in Rust.
 As can be inferred from being made in Rust, its usage is very similar to cargo.
 
 To see official documentation, please refer to [Ruff documentation](https://astral.sh/ruff).
+
+## Django
+
+Python Web Framework인 Django [docs](https://docs.djangoproject.com/en/5.0/)를 다룹니다.
+
+* [Django Project Overview](django/01_overview.md)
+* [Django App Overview](django/02_app.md)
+* [Models](django/03_model.md)
+* [Queries](django/04_query.md)
+* [Rendering the Responses](django/05_rendering.md)
+* [Django Security]
+* [Django Admin]
+* [Django Auth]
+* [Django Cache]
+* [Django Logging]
