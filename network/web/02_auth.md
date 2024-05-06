@@ -49,6 +49,9 @@ To prevent this, a cookie issuer must set `SameSite=Strict`.
 If token is stored on local storage, it is safe from CSRF attack.
 
 유저가 악성 페이지에 접속하면 악성 페이지에서 원래 앱 서버로 악성 요청을 보내게 하는데, 이 때 브라우저 쿠키가 자동으로 포함되어 보내지기 때문에 위험한 것.
+이를 방지하기 위한 또 다른 방법으로 CSRF Token을 사용할 수 있는데, Form에 hidden tag로 토큰을 저장하여 클라이언트에게 보낸다.
+클라이언트가 해당 form을 사용하여 application server로 요청을 보낼 때 자동으로 CSRF token이 포함되어 보내지고, 서버는 이를 검증하여 CSRF를 방지한다.
+만약 CSRF 공격으로 제출된 form이라면 CSRF token이 누락되기 때문이다.
 
 ### Refresh Token
 

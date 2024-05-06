@@ -124,3 +124,4 @@
 * Add Pyenv
 * Add Pipx
 * Move Poetry to Python Runtime
+* Update Network Web Auth
