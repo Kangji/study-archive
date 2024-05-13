@@ -65,6 +65,12 @@ Python SQL toolkit인 SQLAlchemy [documentation](https://docs.sqlalchemy.org/en/
 * [SQL Expression](sqlalchemy/05_sql.md)
 * [Migration with Alembic](sqlalchemy/06_alembic.md)
 
+## Python Testing Frameworks
+
+Python의 다양한 testing framework 및 tool들을 다룹니다.
+
+* [Unittest](test/01_unittest.md)
+
 ## [Ruff](ruff.md)
 
 An extremely fast Python linter and code formatter, written in Rust.

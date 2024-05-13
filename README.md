@@ -125,3 +125,7 @@
 * Add Pipx
 * Move Poetry to Python Runtime
 * Update Network Web Auth
+
+### 2024.05.13
+
+* Add Python Test
