@@ -31,6 +31,8 @@
 
 * File Scan (a.k.a. sequential scan)
 * Index Scan
+* Bitmap Scan: Sequential Scan하기엔 적고 Index Scan하기엔 또 많아서 애매하게 file block이 중복될 때
+    * Index를 바탕으로 block bitmap을 만들어서 접근할 file block을 찾고 그 안에서 sequential scan
 
 ### Linear Search
 

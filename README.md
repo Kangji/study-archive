@@ -129,3 +129,8 @@
 ### 2024.05.13
 
 * Add Python Test
+
+### 2024.05.14
+
+* Add Database Transaction Isolation
+* Update Database Query Optimization

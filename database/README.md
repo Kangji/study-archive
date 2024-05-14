@@ -16,3 +16,4 @@ Database System Conncept와 SNU Database 수업 내용을 요약한 archive입�
 * [Transactions](10_transactions.md)
 * [Concurrency Control](11_lock.md)
 * [Recovery System](12_recovery.md)
+* [Transaction Isolation](13_isolation.md)
