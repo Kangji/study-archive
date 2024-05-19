@@ -8,11 +8,11 @@ Pipx는 Python application 각각을 고립된 virtual environment에서 관리�
 한편, pipx 또한 Python application이기에 pipx로 설치할 수 있긴 하지만, 그러지 말자.
 
 Pipx 공식 repo에서는 MacOS의 경우 Homebrew로 설치하기를 권장한다.
-그러나 Homebrew로 설치할 경우 pipx를 homebrew가 관리하는 Python runtime에 설치하려고 하기 때문에 (`{python_path}/bin/`),
-Homebrew는 dependency인 최신 버젼 Python runtime을 설치한다.
-필자는 pyenv로만 Python runtime을 관리하고 싶기 때문에 Homebrew로 Python application을 설치하는 것을 지양한다.
+만약 pip로 설치할 경우 pipx가 global python runtime에 의존해서,
+pyenv 등으로 global runtime을 관리하는 경우 모든 runtime마다 pipx를 설치하거나 pipx를 사용하기 위해 특정 runtime으로 매번 바꿔줘야 한다.
 
-Pip로 설치할 경우 pip와 동일한 Python runtime을 사용하게 된다.
+그러나 Homebrew로 설치할 경우 pipx는 homebrew가 관리하는 별도의 python runtime에 의존하며,
+설치경로 또한 homebrew의 root가 되어 편리하다.
 
 ## Configuration
 
