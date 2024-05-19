@@ -138,3 +138,4 @@
 ### 2024.05.20
 
 * Split concurrency & synchronization
+* Add asynchronous programming
