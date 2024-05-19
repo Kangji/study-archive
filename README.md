@@ -139,3 +139,6 @@
 
 * Split concurrency & synchronization
 * Add asynchronous programming
+* Add OS scheduler
+* Update coroutine
+* Update pipx
