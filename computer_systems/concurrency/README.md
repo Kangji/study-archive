@@ -8,3 +8,4 @@ SNU Operating Systems 수업과 Systems Programming 수업 내용 중 Concurrenc
 * [POSIX Thread API](02_posix.md)
 * [Thread Safety](03_safety.md)
 * [Asynchronous Programming](04_async.md)
+* [Resource Scheduling](05_scheduler.md)
