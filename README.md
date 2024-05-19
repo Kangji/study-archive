@@ -134,3 +134,7 @@
 
 * Add Database Transaction Isolation
 * Update Database Query Optimization
+
+### 2024.05.20
+
+* Split concurrency & synchronization
